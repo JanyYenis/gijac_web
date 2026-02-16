@@ -21,7 +21,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
      @vite([
-        'resources/css/app.css',
         'resources/js/app.js',
         'resources/css/style.css',
         'resources/js/script.js'
@@ -208,9 +207,9 @@
 
           <div class="projects-grid">
             <a class="project-card reveal" href="#" aria-label="Proyecto 1 (enlace de ejemplo)">
-              <img src="{{ asset('build/img/proyectos/ekomeritos.png') }}" alt="Proyecto 1: EKOMERITOS" />
+              <img src="{{ asset('build/img/proyectos/ekomeritos.png') }}" alt="Proyecto 1: EcoRecicla" />
               <div class="overlay">
-                <h3>Ekomeritos</h3>
+                <h3>EcoRecicla</h3>
                 <p>Plataforma para la recolección de materiales reciclables.</p>
               </div>
             </a>
