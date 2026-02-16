@@ -207,10 +207,10 @@
 
           <div class="projects-grid">
             <a class="project-card reveal" href="#" aria-label="Proyecto 1 (enlace de ejemplo)">
-              <img src="{{ asset('build/img/proyectos/ekomeritos.png') }}" alt="Proyecto 1: EcoRecicla" />
+              <img src="{{ asset('build/img/proyectos/ecorecicla.png') }}" alt="Proyecto 1: EcoRecicla" />
               <div class="overlay">
                 <h3>EcoRecicla</h3>
-                <p>Plataforma para la recolección de materiales reciclables.</p>
+                <p>Plataforma para la recolección de materiales reciclables .</p>
               </div>
             </a>
 
@@ -221,13 +221,27 @@
                 <p>La app que te ayudará a mejorar la comunicación con tus clientes por el canal más importante, WhatsApp.</p>
               </div>
             </a>
-            {{-- <a class="project-card reveal delay-2" href="#" aria-label="Proyecto 3 (enlace de ejemplo)">
-              <img src="img/portfolio-3.svg" alt="Proyecto 3: Chatbot IA" />
+            <a class="project-card reveal delay-2" href="#" aria-label="Proyecto 3 (enlace de ejemplo)">
+              <img src="{{ asset('build/img/proyectos/NEES.png') }}" alt="Proyecto 3: NEES" />
               <div class="overlay">
-                <h3>Chatbot IA</h3>
-                <p>Atención al cliente 24/7</p>
+                <h3>NEES</h3>
+                <p>Gestión de inventario inteligente para cerrajeros: controla tus materiales, herramientas y repuestos desde cualquier lugar.</p>
               </div>
-            </a> --}}
+            </a>
+            <a class="project-card reveal delay-2" href="#" aria-label="Proyecto 3 (enlace de ejemplo)">
+              <img src="{{ asset('build/img/proyectos/Inmora.png') }}" alt="Proyecto 3: Inmora Detalles" />
+              <div class="overlay">
+                <h3>Inmora Detalles</h3>
+                <p>Centro de control empresarial que unifica la gestión de inventarios, clientes y ventas, ofreciendo análisis de métricas en tiempo real para una toma de decisiones informada y efectiva.</p>
+              </div>
+            </a>
+            <a class="project-card reveal delay-2" href="#" aria-label="Proyecto 3 (enlace de ejemplo)">
+              <img src="{{ asset('build/img/proyectos/globetrotter.png') }}" alt="Proyecto 3: Globetrotter Journeys" />
+              <div class="overlay">
+                <h3>Globetrotter Journeys</h3>
+                <p>El centro de operaciones digital para tu agencia de viajes. Crea, personaliza y gestiona itinerarios de ensueño mientras deleitas a tus clientes con un servicio impecable.</p>
+              </div>
+            </a>
           </div>
         </div>
       </section>
